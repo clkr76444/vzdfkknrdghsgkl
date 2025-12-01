@@ -1,0 +1,30 @@
+html, body {
+  background-color: #ce5562;
+  margin: 10px;
+}
+
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #ffeead;
+  display: inline-block
+}
+
+.container > div:nth-child(1n) {
+  background-color: #0f864f;
+  -color: #ffeead;
+}
+
+.box {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  background-color: #ffd;
+  border-style: dashed;
+  border-color: #f00;
+  border-width: 5px;
+  padding: 1.5em;
+}
